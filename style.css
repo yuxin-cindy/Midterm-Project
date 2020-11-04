@@ -1,0 +1,198 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+                                            /*Custom style */
+/* Moblie Version */
+body{
+    background-color: rgb(227, 220, 233);
+    font-family: 'Fredericka the Great', cursive;
+    margin: 20px;
+   
+}
+#headline{
+   
+    font-size: 45px;
+    color: rgb(105, 77, 131);
+    font-weight:bold;
+    text-align: center;
+    margin: 20px 0;
+}
+
+
+h1{
+    font-size:28px ;
+    color: rgb(72, 62, 82);
+    margin: 30px 0;
+}
+
+
+button{
+    font-family: 'Patrick Hand', cursive;
+    border-radius: 25px;
+    font-size: 30px;
+    margin:20px auto;
+    display: grid;  
+    border-color: rgb(19, 17, 29);
+}
+
+/* add style on h1 */
+h1{   
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(72, 62, 82);
+    font-weight:bold;
+    text-align: center;
+    margin: 30px 0;
+
+}
+#choose{
+    font-size:28px ;
+    color: rgb(72, 62, 82);
+    margin: 30px 0;
+}
+
+
+/* add style on mission,lunch,and weather buttons */
+button#mission, button#lunch, button#weather{
+    font-size: 30px;
+    width: 100%;
+    margin: 70px auto;
+    border-color: rgb(41, 39, 51);
+    
+}
+
+button:hover{
+        background-color: rgb(122, 103, 141);
+        color:white;
+        border-color: rgb(41, 39, 51);
+    
+}
+
+
+
+
+
+input{
+    display: grid;
+    font-weight: bold;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 20px auto;
+    color:rgb(42, 37, 46);
+    border-color: rgb(19, 17, 29);
+}
+
+p{
+    font-weight: bold;
+    text-align: center;
+    margin:70px 20px;
+    line-height: 30px;
+}
+
+/* changed the color of input in the story page */
+.word{
+    font-style: italic;
+    color: rgb(140, 119, 150);
+    text-decoration: underline;
+     
+}
+
+                               /* Table Version- About page */
+                              
+@media screen and (min-width:450px) and (max-width:768px){
+    button#mission, button#lunch, button#weather{
+        font-size: 25px;
+        width: 90%;
+ 
+        margin: 60px auto;      
+    }
+    input{
+        width: 70%;
+        height: 35px;
+    }                     
+}
+
+                                   /* Desktop Version */
+    
+ @media screen and (min-width: 768px){
+    #headline {
+        font-size: 55px;
+    }
+    h1{
+        font-size: 30px;
+    }   
+    button#mission, button#lunch, button#weather{
+        font-size: 30px;
+        width: 80%;
+        margin: 65px auto;       
+    }
+    p{
+        font-size: 26px;
+        line-height: 45px;
+        margin: 88px 10px;
+       
+    }
+    input{
+        width: 50%;
+        height: 39px;
+        font-size: 25px;
+        border-radius: 20px;
+        text-align: center;
+        margin: 30px auto;
+    }
+
+
+ }
