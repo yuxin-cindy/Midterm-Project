@@ -44,7 +44,7 @@ const forms = [
       <input type="text" name="Plural Noun 1" placeholder="Plural Noun 1">
       <input type="text" name="Plural Noun 2" placeholder="Plural Noun 2">
       <input type="text" name="Plural Noun 3" placeholder="Plural Noun 3"><br>
-      <button id='read' type="submite">Read Story</button>     
+      <button id='read' type="submit">Read Story</button>     
     </form>
   `
   ,
@@ -59,7 +59,7 @@ const forms = [
   <input type="text" name="Noun" placeholder="Noun">
   <input type="text" name="Container" placeholder="Container">
   <br>
-  <button id='read' type="submite">Read Story</button>     
+  <button id='read' type="submit">Read Story</button>     
   </form>
   `,
   `
@@ -73,7 +73,7 @@ const forms = [
   <input type="text" name="Plural Noun 1" placeholder="Plural Noun 1">
   <input type="text" name="Plural Noun 2" placeholder="Plural Noun 2">
   <br>
-  <button id='read' type="submite">Read Story</button>     
+  <button id='read' type="submit">Read Story</button>     
   </form>
   `
   
